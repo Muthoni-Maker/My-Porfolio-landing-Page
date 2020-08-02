@@ -2,29 +2,40 @@
 	margin:0px;
 	padding:0px;
 }
-#about-page{
+#main-content-holder-container{
 	width:99vw;
-	height:90vh;
-	background-image:url("https://cdn.pixabay.com/photo/2020/05/16/13/18/nature-5177539__340.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	color:white;
-
-	display:flex;
-	justify-content: center;
-	flex-direction:column;
-	align-items: center;
+	height:99vh;
+	background-color:grey;
 
 }
-p{
-	padding:20px;
-	margin:20px;
-	border:1px solid white;
-	width:50vw;
-	height:50vh;
-	font-size:30px;
+
+#navigation-bar-container{
+	width:99vw;
+	height:10vh;
+	background-color:black;
 	color:white;
+
 }
-h2{
-	font-size:30px;
+#header{
+	height:99vh;
+	width:99vw;
+	background-image:url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537__340.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:scroll; 
+
+}
+a{
+	color:white;
+	text-decoration:none;
+	padding-left:40px;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	top:10px;
+}
+#About{
+	width:200px;
+	height:150px;
+	background-color:blue;
 }
