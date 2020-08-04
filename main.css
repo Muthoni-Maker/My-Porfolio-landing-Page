@@ -31,11 +31,10 @@ body{
    font-size:20px;
    font-style:normal;
    font-weight:normal;
-   font-family:serif;
+   font-family:sans-serif;
    padding-top:10px;
    color:white;
-   
-padding-left:20px;
+   padding-left:20px;
 }
 
 #name-carrier-div{
@@ -50,7 +49,7 @@ padding-left:20px;
      top:90px;
 	}
 	button{
-		background-color:grey;
+		
 		width:140px;
 		height:40px;
 		padding:2px;
@@ -79,7 +78,7 @@ padding-left:20px;
 
 	}
 	#p1{
-		font-family:serif;
+		font-family:sans-serif;
 		font-weight:normal;
 		font-size:19px;
 		color:white;
@@ -105,11 +104,12 @@ padding-left:20px;
 		color:white;
 		font-size:20px;
 	    font-weight:bold;
+	    font-family:sans-serif;
 
 }
 	h1{
       font-size:20px;
-      font-family:serif;
+      font-family:sans-serif;
       font-weight:bold;
       color:white;
       position:relative;
