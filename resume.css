@@ -1,0 +1,78 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+#main-content-holder{
+		width:99vw;
+	height:90vh;
+	background-color:white;
+}
+#header-section{
+	width:99vw;
+	height:10vh;
+	background-color:grey;
+	color:white;
+
+}
+a{
+
+	color:white;
+	text-decoration:none;
+	padding-left:40px;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	top:10px;
+}
+#main{
+	width:99vw;
+	height:99vh;
+}
+#body-section{
+	height:87vh;
+	width:99vw;
+	background-image:url("https://cdn.pixabay.com/photo/2013/09/27/09/01/paper-186894__340.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:scroll; 
+	display:flex;
+    flex-direction:column;
+    justify-content:space-between; 
+}
+#Skills-section{
+	width:45vw;
+	height:40vh; 
+	background-color:grey;
+	position:relative; 
+	top:20px;
+}
+
+#Education-section{
+	width:45vw;
+	height:40vh; 
+	background-color:grey;
+	position:relative; 
+	top:20px;
+}
+#footer-section{
+	width:99vw;
+	height:10vh;
+	background-color:grey;
+    position:relative;
+    bottom:1px;
+    color:white;
+}
+
+#technical-skills{
+  	width:45vw;
+	height:40vh; 
+	background-color:grey;
+  
+
+}
+#projects{
+    width:45vw;
+	height:40vh; 
+	background-color:grey;
+}
