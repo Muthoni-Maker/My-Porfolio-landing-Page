@@ -4,20 +4,20 @@
 }
 #main-content-holder-container{
 	width:99vw;
-	height:99vh;
-	background-color:grey;
+	height:90vh;
+	background-color:white;
 
 }
 
 #navigation-bar-container{
 	width:99vw;
 	height:10vh;
-	background-color:black;
+	background-color:grey;
 	color:white;
 
 }
 #header{
-	height:99vh;
+	height:87vh;
 	width:99vw;
 	background-image:url("https://cdn.pixabay.com/photo/2013/09/27/09/01/paper-186894__340.jpg");
 	background-repeat:no-repeat;
@@ -25,8 +25,8 @@
 	background-attachment:scroll; 
 	display:flex;
     justify-content:center;
-
-
+    justify-content:space-between;
+    flex-direction:column;
 
 }
 
@@ -39,38 +39,64 @@ a{
 	position:relative;
 	top:10px;
 }
+
 #About{
 	display:flex;
-    flex-direction:column;
-    align-items:center;  
-	width:60vw;
-	height:90vh;
+	flex-direction:column;
+	width:55vw;
+	height:70vh;
 	color:white;
-	background-color:black;
+	background-color:grey;
+	position:relative;
+	top:20px;
+	left:300px;
 }
 #footer{
 	width:99vw;
-	height:30vh;
-	background-color:black;
-	position:relative;
-	bottom:60px; 
+	height:10vh;
+	background-color:grey;
+    position:relative;
+    bottom:1px;
+    color:white;
+    font-size:16px;
+    text-align: center;
+
 }
 h1{
 
-  font-size:20px; 
-  font-family:sans-serif;
-  font-weight:normal;
+  font-size:25px; 
+  font-family:serif;
+  font-weight:bold;
   position:relative;
   top:10px;
+  left:80px;
 
 }
 #About-section{
-  font-size:18px; 
-  font-family:sans-serif;
+  font-size:20px; 
+  font-family:serif;
   font-weight:normal;
   align-items:center;
   position:relative;
   top:20px;
   display:inline-block;
+  padding:25px;
+  margin:5px;
 
+
+}
+hr{
+	width:500px;
+	height:1px;
+	position:relative;
+	left:100px;
+	top:20px;
+	
+}
+.nav-links1{
+	width:55vw;
+	position:relative;
+	top:10px;
+	margin-left:200px;
+	padding:30px;
 }
