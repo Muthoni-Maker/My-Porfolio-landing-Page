@@ -12,14 +12,14 @@
 #navigation-bar-container{
 	width:99vw;
 	height:10vh;
-	background-color:grey;
+	background-color:rgb(26, 13, 3);
 	color:white;
 
 }
 #header{
 	height:87vh;
 	width:99vw;
-	background-image:url("https://cdn.pixabay.com/photo/2013/09/27/09/01/paper-186894__340.jpg");
+	background-color:rgb(56, 55, 54);
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-attachment:scroll; 
@@ -46,7 +46,6 @@ a{
 	width:55vw;
 	height:70vh;
 	color:white;
-	background-color:grey;
 	position:relative;
 	top:20px;
 	left:300px;
@@ -54,7 +53,7 @@ a{
 #footer{
 	width:99vw;
 	height:10vh;
-	background-color:grey;
+	background-color:rgb(26, 13, 3);
     position:relative;
     bottom:1px;
     color:white;
