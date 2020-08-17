@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#main-container{
+    width:99vw;
+	height:100vh;
+	background-image:url("https://cdn.pixabay.com/photo/2016/06/20/14/32/gray-1468994_960_720.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed; 
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header-section{
+	width:99vw;
+	height:10vh;
+	color:white;
+
+}
+a{
+
+	color:white;
+	text-decoration:none;
+	padding-left:40px;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	top:10px;
+}
+a:link {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  #contact-form{
+      height:60vh;
+      width:50vw;
+      background-color:transparent;
+      position:relative;
+      top:10px;
+      left:300px;
+
+  }
+  h1{
+      color:white;
+      position:relative;
+      top:9px;
+      left:79px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size:24px;
+
+  }
+  form{
+      padding-left:80px;
+      position:relative;
+      top:20px;
+      color:white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+      
+
+  }
+  input{
+      width:300px;
+      height:30px;
+  }
+  .one{
+      position:relative;
+      top:10px;
+      left:30px;
+  }
+  #footer{
+      width:99vw;
+      height:22vh;
+      background-color:transparent;
+      position:relative;
+      top:30px;
+      border-top:1px solid white;
+     
+
+  }

@@ -4,25 +4,25 @@
 }
 #main-content-holder-container{
 	width:99vw;
-	height:90vh;
-	background-color:white;
+	height:100vh;
+    background-image:url("https://cdn.pixabay.com/photo/2016/06/20/14/32/gray-1468994_960_720.jpg");
+	background-size:cover;
+	background-repeat:no-repeat; 
+	background-attachment:fixed;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 #navigation-bar-container{
 	width:99vw;
 	height:10vh;
-	background-color:rgb(26, 13, 3);
-	color:white;
+    color:white;
 
 }
 #header{
 	height:87vh;
 	width:99vw;
-	background-color:rgb(56, 55, 54);
-	background-repeat:no-repeat;
-	background-size:100%;
-	background-attachment:scroll; 
+    color:white;
 	display:flex;
     justify-content:center;
     justify-content:space-between;
@@ -40,57 +40,92 @@ a{
 	top:10px;
 }
 
+a:link {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color:white;
+	background-color: black;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: black;
+	background-color:transparent;
+	text-decoration: underline;
+  }
+
 #About{
 	display:flex;
 	flex-direction:column;
 	width:55vw;
 	height:70vh;
-	color:white;
+    color:white;
 	position:relative;
 	top:20px;
 	left:300px;
 }
+
 #footer{
 	width:99vw;
 	height:10vh;
-	background-color:rgb(26, 13, 3);
-    position:relative;
-    bottom:1px;
+	
     color:white;
     font-size:16px;
     text-align: center;
 
 }
+
 h1{
 
   font-size:25px; 
-  font-family:serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight:bold;
   position:relative;
-  top:10px;
+  top:30px;
   left:80px;
 
 }
 #About-section{
   font-size:20px; 
-  font-family:serif;
+  color:white;
   font-weight:normal;
   align-items:center;
   position:relative;
   top:20px;
-  display:inline-block;
+  display:block;
   padding:25px;
   margin:5px;
+  max-width:600px;
+  font-family:serif;
+  font-weight:bold;
 
 
 }
-hr{
+#hr-one{
+	width:210px;
+	height:1px;
+	position:relative;
+	left:80px;
+	top:30px;
+	
+}
+#hr-two{
 	width:500px;
 	height:1px;
 	position:relative;
 	left:100px;
 	top:20px;
-	
+
 }
 .nav-links1{
 	width:55vw;

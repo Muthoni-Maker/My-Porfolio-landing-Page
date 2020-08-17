@@ -4,14 +4,17 @@
 
 }
 #main-content-holder{
-		width:99vw;
-	height:90vh;
-	background-color:white;
+	width:99vw;
+	height:100vh;
+	background-image:url("https://cdn.pixabay.com/photo/2016/06/20/14/32/gray-1468994_960_720.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed; 
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #header-section{
 	width:99vw;
 	height:10vh;
-	background-color:grey;
 	color:white;
 
 }
@@ -25,54 +28,99 @@ a{
 	position:relative;
 	top:10px;
 }
+a:link {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
 #main{
 	width:99vw;
 	height:99vh;
+	color:white;
 }
 #body-section{
 	height:87vh;
-	width:99vw;
-	background-image:url("https://cdn.pixabay.com/photo/2013/09/27/09/01/paper-186894__340.jpg");
-	background-repeat:no-repeat;
-	background-size:100%;
-	background-attachment:scroll; 
+	width:99vw; 
 	display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:space-between; 
 }
 #Skills-section{
 	width:45vw;
 	height:40vh; 
-	background-color:grey;
 	position:relative; 
 	top:20px;
+	left:80px;
+	padding-left:20px;
+	border-right:1px solid white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:bold;
+}
+ul{
+	list-style-type:none;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#Education-section{
+#Projects-section{
 	width:45vw;
 	height:40vh; 
-	background-color:grey;
 	position:relative; 
 	top:20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head-one{
+	position:relative;
+	top:8px;
+	font-size:32px;
+}
+#head-two{
+	position:relative;
+	top:9px;
+    font-size:18px;
+}
+#one{
+	position:relative;
+	top:10px;
+}
+#two{
+	position:relative;
+	top:10px;
+}
+#three{
+	position:relative;
+	top:10px;
+}
+#four{
+	position:relative;
+	top:12px;
+	font-size:18px;
+}
+#five{
+	position:relative;
+	top:10px;
 }
 #footer-section{
 	width:99vw;
 	height:10vh;
-	background-color:grey;
     position:relative;
-    bottom:1px;
+ 
     color:white;
-}
-
-#technical-skills{
-  	width:45vw;
-	height:40vh; 
-	background-color:grey;
-  
-
-}
-#projects{
-    width:45vw;
-	height:40vh; 
-	background-color:grey;
 }
